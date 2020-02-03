@@ -1,0 +1,33 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h2>Aeronaves</h2>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Prefix</th>
+          <th>Max Departure Weight</th>
+          <th>Max Landing Weight</th>
+          <th>Active</th>
+          <th>Aircraft Model</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of aeronaves">
+          <td>{{item.Id}}</td>
+          <td>{{item.Prefix}}</td>
+          <td>{{item.MaxDepartureWeight}}</td>
+          <td>{{item.MaxLandingWeight}}</td>
+          <td>{{item.Active}}</td>
+          <td>{{item.AircraftModel}}</td>
+          <td><button (click)="deleteAeronave(item.Id)" class="btn btn-danger">Delete</button>
+              <button (click)="atualizarAeronave(item.Id)" class="btn btn-info" style="margin-left: 10px">Atualizar</button>
+              <button (click)="aeronaveDetails(item.Id)" class="btn btn-info" style="margin-left: 10px">Detalhes</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<h2>Detalhes Modelo de Aeronave</h2>
+
+<hr/>
+<div *ngIf="modeloaeronave">
+  <div>
+    <label><b>Code: </b></label> {{modeloaeronave.Code}}
+  </div>
+  <div>
+    <label><b>AlternativeCode: </b></label> {{modeloaeronave.AlternativeCode}}
+  </div>
+  <div>
+    <label><b>Max Departure Weight: </b></label> {{modeloaeronave.MaxDepartureWeight}}
+  </div>
+  <div>
+    <label><b>Max Landing Weight: </b></label> {{modeloaeronave.MaxLandingWeight}}
+  </div>
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Voltar para lista de Modelos de Aeronaves</button><br>

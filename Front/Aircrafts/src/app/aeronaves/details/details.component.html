@@ -1,0 +1,24 @@
+<h2>Detalhes Aeronave</h2>
+
+<hr/>
+<div *ngIf="aeronave">
+  <div>
+    <label><b>Prefix: </b></label> {{aeronave.Prefix}}
+  </div>
+  <div>
+    <label><b>Max Departure Weight: </b></label> {{aeronave.MaxDepartureWeight}}
+  </div>
+  <div>
+    <label><b>Max Landing Weight: </b></label> {{aeronave.MaxLandingWeight}}
+  </div>
+  <div>
+    <label><b>Active: </b></label> {{aeronave.Active}}
+  </div>
+  <div>
+    <label><b>Aircraft Model: </b></label> {{aeronave.AircraftModel}}
+  </div>
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Voltar para lista de Aeronaves</button><br>

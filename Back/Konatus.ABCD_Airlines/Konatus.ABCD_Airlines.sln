@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Konatus.ABCD_Airlines.UI", "1 - Konatus.ABCD_Airlines.UI", "{1A2ED53E-77A4-4233-963D-2B1C59C33D28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 -Konatus.ABCD_Airlines.Core", "2 -Konatus.ABCD_Airlines.Core", "{B0178E1D-A479-4C86-8BED-5FF48FC9C8D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Konatus.ABCD_Airlines.Infrastructure", "3 - Konatus.ABCD_Airlines.Infrastructure", "{220401CA-4B48-4337-AB9E-97BC919ECA3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konatus.ABCD_Airlines.Core", "Konatus.ABCD_Airlines.Core\Konatus.ABCD_Airlines.Core.csproj", "{77F68981-ADC6-4155-8DF3-BC721F398246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konatus.ABCD_Airlines.Infra", "Konatus.ABCD_Airlines.Infra\Konatus.ABCD_Airlines.Infra.csproj", "{C12334D4-1B4F-4E6B-8487-FE9682972E51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konatus.ABCD_Airlines.Web", "Konatus.ABCD_Airlines.Web\Konatus.ABCD_Airlines.Web.csproj", "{BA14F016-16CD-41DC-9777-F3BC231E5633}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F68981-ADC6-4155-8DF3-BC721F398246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F68981-ADC6-4155-8DF3-BC721F398246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F68981-ADC6-4155-8DF3-BC721F398246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F68981-ADC6-4155-8DF3-BC721F398246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12334D4-1B4F-4E6B-8487-FE9682972E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12334D4-1B4F-4E6B-8487-FE9682972E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12334D4-1B4F-4E6B-8487-FE9682972E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12334D4-1B4F-4E6B-8487-FE9682972E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA14F016-16CD-41DC-9777-F3BC231E5633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA14F016-16CD-41DC-9777-F3BC231E5633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA14F016-16CD-41DC-9777-F3BC231E5633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA14F016-16CD-41DC-9777-F3BC231E5633}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77F68981-ADC6-4155-8DF3-BC721F398246} = {B0178E1D-A479-4C86-8BED-5FF48FC9C8D6}
+		{C12334D4-1B4F-4E6B-8487-FE9682972E51} = {220401CA-4B48-4337-AB9E-97BC919ECA3C}
+		{BA14F016-16CD-41DC-9777-F3BC231E5633} = {1A2ED53E-77A4-4233-963D-2B1C59C33D28}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44F2643E-433A-45C9-AF93-6F1B54B9C97E}
+	EndGlobalSection
+EndGlobal
